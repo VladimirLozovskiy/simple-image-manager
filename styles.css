@@ -1,0 +1,26 @@
+#forma{
+    width: 900px;
+    margin: 50px;
+    border: 1px solid #cbcbcb;
+}
+form{
+    width: 50%;
+    margin: 30px auto;
+}
+form div{
+    margin-top: 10px;
+
+}
+#img_div{
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #cbcbcb;
+    height: 250px;
+}
+img{
+    float: left;
+    margin: 5px;
+    width: 350px;
+    height: 240px;
+}
