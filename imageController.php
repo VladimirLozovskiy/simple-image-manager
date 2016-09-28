@@ -28,6 +28,8 @@ class imageController extends ImageModel
         if (!file_exists('uploadedImages')) {
             mkdir('uploadedImages', 0777, true);
         }
+        // in case if client accidentally change permission
+        chmod("uploadedImages", 0777);
     }
 
     /**
