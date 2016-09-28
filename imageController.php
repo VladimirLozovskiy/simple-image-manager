@@ -24,6 +24,10 @@ class imageController extends ImageModel
     {
         $dbObj     = new DB();
         $this->db1 = $dbObj->connect();
+
+        if (!file_exists('uploadedImages')) {
+            mkdir('uploadedImages', 0777, true);
+        }
     }
 
     /**
